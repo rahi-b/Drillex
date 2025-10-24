@@ -11,12 +11,12 @@ import Image10 from "./images/pruningsawred.jpg"
 
 
 export const categories = [
-  "Electronics",
-  "Fashion",
-  "Home & Kitchen",
-  "Beaty",
-  "Sports",
-  "Automative",
+  "hardware",
+  "Power Tools",
+  "Hand Tools",
+  "electrical",
+  "Plumbing",
+  "Paint",
 ];
 
 export const mockData = [

@@ -10,7 +10,6 @@ import { mockData } from '../assets/mockData'
 import ProductCard from '../components/ProductCard'
 import Shop from './Shop'
 
-
 const Home = () => {
 
   const dispatch = useDispatch()
@@ -43,7 +42,7 @@ const Home = () => {
             
             <h1 className="text-gray-600 mb-4">WELCOME TO DRILLAX</h1>
             <p className="text-3xl font-bold">POWER TO LIVE</p>
-            <p className="text-xl mt-2.5 font-bold text-gray-800">MILLION+ PRODUCTS</p>
+            <p className="text-xl mt-2.5 font-bold text-gray-800">MILLION + PRODUCTS</p>
             <button className="bg-red-600 px-8 py-1.5 text-white mt-4 hover:bg-red-700 
                              transform transition-transform duration-300 hover:scale-105">SHOP NOW</button>
           </div>
