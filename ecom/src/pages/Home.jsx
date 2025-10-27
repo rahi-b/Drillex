@@ -36,7 +36,17 @@ const Home = () => {
            </ul>
            
         </div>
-        <div className='w-full md:w-9/12 mt-0 md:mt-0 h-96 relative'>
+
+
+        
+
+
+
+        {/* <div className='w-full md:w-9/12 mt-0 md:mt-0 h-96 relative'> */}
+
+        <div className='w-full md:w-9/12 mt-0 md:mt-0 h-[600px] relative'>
+
+
           <img src={ProductImage}alt="" className='h-full w-full '/>
           <div className='absolute top-16 left-8'>
             

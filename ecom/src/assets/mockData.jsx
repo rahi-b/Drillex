@@ -17,6 +17,20 @@ export const categories = [
   "electrical",
   "Plumbing",
   "Paint",
+  "Garden",
+  "Automotive",
+  "Lighting",
+  "Flooring",
+  "Garden",
+  "Automotive",
+  "Lighting",
+  "Flooring",
+  "Automotive",
+  "Lighting",
+ 
+
+
+
 ];
 
 export const mockData = [
