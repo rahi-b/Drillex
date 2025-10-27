@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [react(),
     tailwindcss()
   ],
+  base: '/drillax/', // 👈 add this line
   
 })
 
