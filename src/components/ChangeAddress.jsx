@@ -17,8 +17,7 @@ const ChangeAddress = ({setAddress, setIsModelOpen}) => {
         <button className='bg-blue-500 text-white py-2 px-4 rounded mr-2' onClick={()=>setIsModelOpen(false)}>
            Cancel
         </button>
-        <button className='bg-gray-500 text-white py-2 px-4 rounded
-         ' onClick={onClose}>
+        <button className='bg-gray-500 text-white py-2 px-4 rounded' onClick={onClose}>
           Save Address
         </button>
       </div>

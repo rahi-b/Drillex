@@ -1,7 +1,7 @@
 import Image1 from "./images/wirebrushwhite.jpg"
 import Image2 from "./images/wirebrushblack.jpg"
 import Image3 from "./images/wirebrushyellow.jpg"
-import Image4 from "./images/Drillbit.jpg"
+import Image4 from "./images/drillbit.jpg"
 // import Image11 from "./images/drywallnet.jpg"
 import Image6 from "./images/grindingwheel.jpg"
 import Image7 from "./images/pruningsawwood.jpg"
