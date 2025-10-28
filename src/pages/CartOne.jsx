@@ -8,7 +8,7 @@ import ChangeAddress from "../components/ChangeAddress";
 import { increaseQuantity, decreaseQuantity , removeFromCart } from "../redux/cartSlice";
 import {useNavigate} from 'react-router-dom'
 
-const Cart = () => {
+const CartOne = () => {
   const cart = useSelector((state) => state.cart);
   const [address, setAddress] = useState('main street, 0012')
   const [isModelOpen, setIsModelOpen] = useState(false)
@@ -119,4 +119,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default CartOne;

@@ -5,7 +5,7 @@ import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom"
 import Footer from "./components/Footer"
 import Home from "./pages/Home"
 import Shop from "./pages/Shop"
-import Cart from "../src/pages/Cart"
+import CartOne from "./pages/CartOne"
 import Checkout from "./pages/Checkout"
 import { useState } from "react"
 import Order from "./pages/Order"
@@ -25,7 +25,7 @@ function App() {
 
       <Route path="/" element={<Home/>}> </Route>
       <Route path="/shop" element={<Shop/>}> </Route>
-      <Route path="/cart" element={<Cart/>}></Route>
+      <Route path="/cart" element={<CartOne/>}></Route>
        <Route path="/checkout" element={<Checkout setOrder={setOrder}/>}></Route>
      
         <Route path="/order-confirmation" element={<Order order={order}/>}></Route>
